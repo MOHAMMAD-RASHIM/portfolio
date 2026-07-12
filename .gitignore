@@ -1,0 +1,20 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and crash dumps
+*.log
+*.stackdump
+grep.exe.stackdump
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.env.*

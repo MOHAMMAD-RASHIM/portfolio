@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammad Rashim | Java Full Stack & AI Developer Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portfolio of Mohammad Rashim, a Java Full Stack & AI Developer specializing in intelligent systems, cloud-native platforms, and premium user experiences."
+    />
+    <meta
+      name="keywords"
+      content="Mohammad Rashim, Java Developer, Full Stack Developer, AI Integration, Spring Boot, React, Portfolio"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Responsive Navigation Header -->
+    <header id="header">
+      <div class="container nav-container">
+        <a href="#hero" class="logo">MOHAMMAD<span>RASHIM</span></a>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#domains" class="nav-link">Domains</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#strengths" class="nav-link">My Strengths</a></li>
+          <li><a href="#connect" class="nav-link">Connect</a></li>
+        </ul>
+        <div
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <span class="section-num">00 / Introduction</span>
+          <h1 class="hero-title">
+            Building systems that breathe <span>performance</span> and
+            <span>intelligence</span>.
+          </h1>
+          <p class="hero-desc">
+            I am Mohammad Rashim, a Java Full Stack & AI Developer crafting
+            resilient enterprise platforms and intelligent product experiences
+            that scale with purpose.
+          </p>
+          <a href="#portfolio" class="hero-cta">
+            Explore My Work
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text fade-in">
+            <div>
+              <span class="section-num">01 / About Me</span>
+              <h2 class="section-title">The Mind Behind the Code</h2>
+            </div>
+            <p class="about-p-main">
+              I’m Mohammad Rashim, a software engineer who builds at the
+              intersection of enterprise-grade Java backends, cloud-native
+              delivery, and modern artificial intelligence. I create systems
+              that are fast, reliable, and thoughtfully designed for real users.
+            </p>
+            <p class="about-p-sub">
+              <strong>My Coding Philosophy:</strong> Every line of code should
+              be intentional. I write services that are modular, testable, and
+              self-documenting, bridging the power of Spring Boot microservices
+              with intuitive, responsive frontend interfaces.
+            </p>
+            <p class="about-p-sub">
+              <strong>Beyond the IDE:</strong> When I'm not tracing API
+              lifecycles or training local model pipelines, you'll find me
+              exploring AI product design, building practical prototypes, or
+              refining engineering processes for the next release. Staying
+              curious keeps me growing.
+            </p>
+          </div>
+          <div class="about-image-wrapper fade-in">
+            <div class="about-image-container">
+              <img
+                src="assets/linkedInProfileImage (1).png"
+                alt="Mohammad Rashim Developer Profile"
+                class="about-image"
+                loading="lazy"
+              />
+              <div class="about-image-overlay" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Domains Section -->
+    <section id="domains">
+      <div class="container">
+        <span class="section-num">02 / Expertise</span>
+        <h2 class="section-title">Core Focus Areas</h2>
+
+        <div class="domains-container">
+          <!-- Domain 1: Java Full Stack -->
+          <div class="domain-row fade-in">
+            <div class="domain-image-container">
+              <img
+                src="assets/project_java.jpg"
+                alt="Enterprise Java Architecture"
+                class="domain-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="domain-content">
+              <span class="domain-num">01</span>
+              <h3 class="domain-title">Enterprise Java Full Stack</h3>
+              <p class="domain-desc">
+                Building reliable, highly-available enterprise systems using
+                Java, Spring Boot, Hibernate, and Microservices. I connect these
+                services to performant frontends built in React or Angular,
+                ensuring seamless full-stack capability and data flow.
+              </p>
+              <a
+                href="#portfolio"
+                class="domain-btn filter-trigger"
+                data-filter="java"
+                >Explore Projects</a
+              >
+            </div>
+          </div>
+
+          <!-- Domain 2: AI Technologies -->
+          <div class="domain-row fade-in">
+            <div class="domain-image-container">
+              <img
+                src="assets/project_ai.jpg"
+                alt="Artificial Intelligence Integrations"
+                class="domain-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="domain-content">
+              <span class="domain-num">02</span>
+              <h3 class="domain-title">AI & Cognitive Systems</h3>
+              <p class="domain-desc">
+                Integrating Large Language Models (LLMs), designing
+                retrieval-augmented generation (RAG) pipelines, and setting up
+                vector databases (like pgvector or Chroma) to bring cognitive,
+                search, and automated intelligence directly into web apps.
+              </p>
+              <a
+                href="#portfolio"
+                class="domain-btn filter-trigger"
+                data-filter="ai"
+                >Explore Projects</a
+              >
+            </div>
+          </div>
+
+          <!-- Domain 3: Cloud & Frontend Engineering -->
+          <div class="domain-row fade-in">
+            <div class="domain-image-container">
+              <img
+                src="assets/project_frontend.jpg"
+                alt="Frontend Engineering and Cloud deployment"
+                class="domain-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="domain-content">
+              <span class="domain-num">03</span>
+              <h3 class="domain-title">Cloud Integration & UI</h3>
+              <p class="domain-desc">
+                Deploying services to modern cloud providers (AWS, GCP) using
+                Docker and Kubernetes, and building beautiful, responsive,
+                dashboard-driven UIs with interactive charts, real-time web
+                sockets, and optimized performance.
+              </p>
+              <a
+                href="#portfolio"
+                class="domain-btn filter-trigger"
+                data-filter="frontend"
+                >Explore Projects</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery Section (Spatial Moments) -->
+    <section id="portfolio">
+      <div class="container">
+        <span class="section-num">03 / Works</span>
+        <h2 class="section-title">Selected Projects</h2>
+
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="java">Enterprise Java</button>
+          <button class="filter-btn" data-filter="ai">AI Integration</button>
+          <button class="filter-btn" data-filter="frontend">UI & Cloud</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid">
+          <div
+            class="portfolio-item fade-in"
+            data-category="ai"
+            data-project-id="faceinsight"
+          >
+            <div class="portfolio-item-image">
+              <img
+                src="assets/project_faceinsight.svg"
+                alt="FaceInsight age and gender detection interface"
+                loading="lazy"
+              />
+            </div>
+            <div class="portfolio-item-info">
+              <span class="portfolio-item-tag">AI Integration</span>
+              <h3 class="portfolio-item-title">FaceInsight</h3>
+              <p class="portfolio-item-summary">
+                An AI-driven face analysis platform for age and gender
+                detection, developed as a team lead for a real-time inference
+                workflow.
+              </p>
+              <ul class="portfolio-item-tech">
+                <li>PyTorch</li>
+                <li>OpenCV</li>
+                <li>FastAPI</li>
+                <li>React</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-item fade-in"
+            data-category="frontend"
+            data-project-id="fashionstore"
+          >
+            <div class="portfolio-item-image">
+              <img
+                src="assets/project_fashionstore.svg"
+                alt="FashionStore premium storefront interface"
+                loading="lazy"
+              />
+            </div>
+            <div class="portfolio-item-info">
+              <span class="portfolio-item-tag">UI & Cloud</span>
+              <h3 class="portfolio-item-title">FashionStore</h3>
+              <p class="portfolio-item-summary">
+                A premium e-commerce experience with immersive product
+                discovery, curated UX, and cloud-ready deployment architecture.
+              </p>
+              <ul class="portfolio-item-tech">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Firebase</li>
+                <li>Cloud Hosting</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-item fade-in"
+            data-category="frontend"
+            data-project-id="foodapp"
+          >
+            <div class="portfolio-item-image">
+              <img
+                src="assets/project_foodapp.svg"
+                alt="FoodApp delivery and tracking dashboard"
+                loading="lazy"
+              />
+            </div>
+            <div class="portfolio-item-info">
+              <span class="portfolio-item-tag">UI & Cloud</span>
+              <h3 class="portfolio-item-title">FoodApp</h3>
+              <p class="portfolio-item-summary">
+                A full-stack food delivery platform with live tracking,
+                real-time order flows, and polished mobile-first interactions.
+              </p>
+              <ul class="portfolio-item-tech">
+                <li>Spring Boot</li>
+                <li>React</li>
+                <li>MySQL</li>
+                <li>Docker</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-item fade-in"
+            data-category="ai"
+            data-project-id="vava"
+          >
+            <div class="portfolio-item-image">
+              <img
+                src="assets/project_vava.svg"
+                alt="VAVA voice assistant visualization"
+                loading="lazy"
+              />
+            </div>
+            <div class="portfolio-item-info">
+              <span class="portfolio-item-tag">AI Integration</span>
+              <h3 class="portfolio-item-title">VAVA</h3>
+              <p class="portfolio-item-summary">
+                A voice-activated virtual assistant built with speech
+                recognition and natural language interactions for hands-free
+                control.
+              </p>
+              <ul class="portfolio-item-tech">
+                <li>Python</li>
+                <li>Speech Recognition</li>
+                <li>WebSocket</li>
+                <li>React</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-item fade-in"
+            data-category="java"
+            data-project-id="hospitaldb"
+          >
+            <div class="portfolio-item-image">
+              <img
+                src="assets/project_hospitaldb.svg"
+                alt="HospitalDB patient management dashboard"
+                loading="lazy"
+              />
+            </div>
+            <div class="portfolio-item-info">
+              <span class="portfolio-item-tag">Enterprise Java</span>
+              <h3 class="portfolio-item-title">Hospital DB</h3>
+              <p class="portfolio-item-summary">
+                A secure, HIPAA-compliant patient management system designed for
+                hospital workflows and enterprise-grade data integrity.
+              </p>
+              <ul class="portfolio-item-tech">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>PostgreSQL</li>
+                <li>JWT Security</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="portfolio-item fade-in"
+            data-category="java"
+            data-project-id="blockland"
+          >
+            <div class="portfolio-item-image">
+              <img
+                src="assets/project_blockland.svg"
+                alt="BlockLand blockchain land registry visualization"
+                loading="lazy"
+              />
+            </div>
+            <div class="portfolio-item-info">
+              <span class="portfolio-item-tag">Enterprise Java</span>
+              <h3 class="portfolio-item-title">BlockLand</h3>
+              <p class="portfolio-item-summary">
+                A decentralized blockchain land registry platform that
+                streamlines property ownership with transparent verification and
+                audit trails.
+              </p>
+              <ul class="portfolio-item-tech">
+                <li>Java</li>
+                <li>Blockchain</li>
+                <li>Spring Security</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Strengths Section (Numbered Grid) -->
+    <section id="strengths">
+      <div class="container">
+        <span class="section-num">04 / Capabilities</span>
+        <h2 class="section-title">My Strengths</h2>
+
+        <div class="strengths-grid">
+          <!-- Strength 1 -->
+          <div class="strength-card fade-in">
+            <span class="strength-num">01</span>
+            <h3 class="strength-title">Full-Stack Fluency</h3>
+            <p class="strength-desc">
+              Seamlessly bridging the gap between robust, transactional Java
+              databases and interactive, responsive web client frontends.
+            </p>
+          </div>
+          <!-- Strength 2 -->
+          <div class="strength-card fade-in">
+            <span class="strength-num">02</span>
+            <h3 class="strength-title">AI-First Engineering</h3>
+            <p class="strength-desc">
+              Integrating cognitive models, RAG systems, and semantic vector
+              indexing directly into production enterprise software workflows.
+            </p>
+          </div>
+          <!-- Strength 3 -->
+          <div class="strength-card fade-in">
+            <span class="strength-num">03</span>
+            <h3 class="strength-title">High-Performance APIs</h3>
+            <p class="strength-desc">
+              Tuning backend queries, implementing strategic caching layers, and
+              designing asynchronous, event-driven message architectures.
+            </p>
+          </div>
+          <!-- Strength 4 -->
+          <div class="strength-card fade-in">
+            <span class="strength-num">04</span>
+            <h3 class="strength-title">Clean & Testable Code</h3>
+            <p class="strength-desc">
+              Writing testable, domain-driven architectures backed by strict
+              automated JUnit testing, mock assertions, and clean SOLID
+              principles.
+            </p>
+          </div>
+          <!-- Strength 5 -->
+          <div class="strength-card fade-in">
+            <span class="strength-num">05</span>
+            <h3 class="strength-title">Cloud Native Delivery</h3>
+            <p class="strength-desc">
+              Creating containerized setups, configuring GitHub Actions pipeline
+              setups, and orchestrating nodes with Docker and Kubernetes.
+            </p>
+          </div>
+          <!-- Strength 6 -->
+          <div class="strength-card fade-in">
+            <span class="strength-num">06</span>
+            <h3 class="strength-title">Collaborative Mindset</h3>
+            <p class="strength-desc">
+              Engaging proactively with UX/UI design patterns, client
+              specifications, and engineering peers to build targeted digital
+              products.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's Connect Section with Google Forms Integration -->
+    <section id="connect">
+      <div class="container">
+        <div class="connect-grid">
+          <div class="connect-info fade-in">
+            <div>
+              <span class="section-num">05 / Contact</span>
+              <h2 class="connect-heading">
+                Let's build<br />something <span>great</span>!
+              </h2>
+            </div>
+            <ul class="connect-channels">
+              <li>
+                <a
+                  href="mailto:mrcoder250@gmail.com"
+                  class="connect-channel-link"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  mrcoder250@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+15550199" class="connect-channel-link">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    ></path>
+                  </svg>
+                  +1 (555) 0199
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/15550199"
+                  target="_blank"
+                  rel="noopener"
+                  class="connect-channel-link"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    ></path>
+                  </svg>
+                  WhatsApp Chat
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Formspree Integration -->
+          <!-- The form is configured to send submissions to your Formspree endpoint -->
+          <form
+            action="https://formspree.io/f/mlgyqyvo"
+            method="POST"
+            class="contact-form fade-in"
+            id="gform"
+          >
+            <div class="form-group">
+              <label for="name-field" class="form-label">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name-field"
+                class="form-input"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email-field" class="form-label">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email-field"
+                class="form-input"
+                placeholder="your.email@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message-field" class="form-label">Message</label>
+              <textarea
+                name="message"
+                id="message-field"
+                class="form-input"
+                placeholder="Tell me about your project or role..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">
+              Send Message
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <div
+              id="form-feedback"
+              style="
+                display: none;
+                font-size: 0.95rem;
+                line-height: 1.5;
+                color: var(--accent);
+                padding-top: 1rem;
+              "
+            >
+              <!-- JS overrides form redirect and places response feedback here -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-copy">
+          <p>&copy; 2026 Mohammad Rashim. All rights reserved.</p>
+          <span
+            >Inspired by
+            <a href="https://www.jxdstudio.com/" target="_blank" rel="noopener"
+              >JXD Studio</a
+            >. Developed for digital experiences.</span
+          >
+        </div>
+        <ul class="footer-links">
+          <li><a href="#hero">Top</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Interactive Project Modal Overlay -->
+    <div class="modal-overlay" id="project-modal">
+      <div class="modal-content">
+        <button
+          class="modal-close-btn"
+          id="modal-close"
+          aria-label="Close modal"
+        >
+          &times;
+        </button>
+        <div class="modal-hero-image">
+          <img src="" alt="Project Hero Image" id="modal-img" />
+        </div>
+        <div class="modal-body">
+          <span class="modal-tag" id="modal-tag">Tag</span>
+          <h2 class="modal-title" id="modal-title">Project Title</h2>
+
+          <div class="modal-meta">
+            <div class="modal-meta-item">
+              Role: <strong id="modal-role">Lead Engineer</strong>
+            </div>
+            <div class="modal-meta-item">
+              Duration: <strong id="modal-duration">3 Months</strong>
+            </div>
+            <div class="modal-meta-item">
+              Focus:
+              <strong id="modal-focus">Architecture & Integration</strong>
+            </div>
+          </div>
+
+          <h3 class="modal-desc-title">Project Case Study</h3>
+          <p class="modal-description" id="modal-desc">
+            Detailed project description goes here...
+          </p>
+
+          <h3 class="modal-desc-title" style="margin-bottom: 0.8rem">
+            Tech Stack
+          </h3>
+          <ul class="modal-tech-list" id="modal-tech">
+            <!-- Tech tags populated dynamically -->
+          </ul>
+
+          <div class="modal-links">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener"
+              class="modal-btn primary"
+              id="modal-demo-link"
+            >
+              Live Demo
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener"
+              class="modal-btn secondary"
+              id="modal-code-link"
+            >
+              Source Code
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client-side Logic Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
