@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     faceinsight: {
       title: "FaceInsight",
       tag: "Artificial Intelligence",
-      image: "assets/project_faceinsight.svg",
+      image: "assets/faceInsight.png",
       role: "AI Project Developer",
       duration: "Academic Project",
       focus: "Image analysis and model-based prediction",
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fashionstore: {
       title: "FashionStore",
       tag: "Java Full Stack",
-      image: "assets/project_fashionstore.svg",
+      image: "assets/fashionStore.png",
       role: "Java Full Stack Developer",
       duration: "Academic Project",
       focus: "User authentication, products, cart, and orders",
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
     foodapp: {
       title: "GoGrab",
       tag: "Java Full Stack",
-      image: "assets/project_foodapp.svg",
+      image: "assets/goGrab.png",
       role: "Java Full Stack Developer",
       duration: "Academic Project",
       focus: "Food ordering and delivery address management",
@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", () => {
     vava: {
       title: "VAVA",
       tag: "Artificial Intelligence",
-      image: "assets/project_vava.svg",
+      image: "assets/vava.png",
       role: "Python Developer",
       duration: "Academic Project",
       focus: "Speech recognition and voice commands",
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
     blockland: {
       title: "Chain Charity",
       tag: "Blockchain",
-      image: "assets/project_blockland.svg",
+      image: "assets/blockLand.png",
       role: "Blockchain Project Developer",
       duration: "Academic Project",
       focus: "Transparent donations and crowdfunding",
