@@ -793,25 +793,39 @@ header.scrolled {
 
 .connect-channels {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.connect-channels li {
+  margin: 0;
 }
 
 .connect-channel-link {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  border-radius: 14px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-smooth);
 }
 
 .connect-channel-link:hover {
   color: var(--accent);
-  transform: translateX(5px);
+  transform: translateX(4px);
+  background-color: rgba(255, 255, 255, 0.04);
 }
 
 .connect-channel-link svg {
+  flex-shrink: 0;
+  width: 1.2rem;
+  height: 1.2rem;
   color: var(--accent);
 }
 
