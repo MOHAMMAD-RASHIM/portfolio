@@ -1,137 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
   <defs>
-    <radialGradient id="bg_vava" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#0d0d1a"/>
-      <stop offset="100%" stop-color="#0b0b0d"/>
-    </radialGradient>
-    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#d4af3740"/>
-      <stop offset="60%" stop-color="#d4af3710"/>
-      <stop offset="100%" stop-color="transparent"/>
-    </radialGradient>
-    <filter id="glow_vava">
-      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softglow_vava">
-      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="bgVava" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11121f" />
+      <stop offset="100%" stop-color="#08090d" />
+    </linearGradient>
+    <linearGradient id="accentVava" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd7e" />
+      <stop offset="100%" stop-color="#b9881d" />
+    </linearGradient>
   </defs>
 
-  <rect width="1600" height="900" fill="url(#bg_vava)"/>
+  <rect width="1600" height="900" fill="url(#bgVava)" />
+  <rect x="90" y="90" width="1420" height="720" rx="34" fill="#151723" stroke="#d4af37" stroke-opacity="0.2" />
 
-  <!-- Central orb glow background -->
-  <circle cx="800" cy="450" r="350" fill="url(#orbGlow)"/>
+  <circle cx="800" cy="430" r="255" fill="#0f1220" stroke="#d4af37" stroke-opacity="0.18" stroke-width="2" />
+  <circle cx="800" cy="430" r="185" fill="none" stroke="#d4af37" stroke-opacity="0.16" stroke-width="2" stroke-dasharray="10 12" />
+  <circle cx="800" cy="430" r="120" fill="#141826" stroke="#d4af37" stroke-opacity="0.3" stroke-width="3" />
 
-  <!-- Waveform rings -->
-  <g fill="none" stroke="#d4af37" filter="url(#glow_vava)">
-    <circle cx="800" cy="450" r="80" stroke-width="2" opacity="0.9"/>
-    <circle cx="800" cy="450" r="140" stroke-width="1.5" opacity="0.6"/>
-    <circle cx="800" cy="450" r="210" stroke-width="1" opacity="0.4"/>
-    <circle cx="800" cy="450" r="290" stroke-width="0.8" opacity="0.25"/>
-    <circle cx="800" cy="450" r="380" stroke-width="0.6" opacity="0.15"/>
-    <circle cx="800" cy="450" r="480" stroke-width="0.4" opacity="0.1"/>
-  </g>
+  <rect x="740" y="360" width="120" height="170" rx="40" fill="url(#accentVava)" />
+  <path d="M760 430c0-25 18-46 40-46 22 0 40 21 40 46" fill="none" stroke="#0f1220" stroke-width="10" stroke-linecap="round" />
+  <path d="M780 520h40" stroke="#0f1220" stroke-width="10" stroke-linecap="round" />
+  <path d="M780 540h40" stroke="#0f1220" stroke-width="10" stroke-linecap="round" />
 
-  <!-- Inner orb -->
-  <circle cx="800" cy="450" r="70" fill="#1a1a2e" stroke="#d4af37" stroke-width="2" filter="url(#glow_vava)" opacity="0.95"/>
-  <circle cx="800" cy="450" r="55" fill="#12121e" stroke="#d4af37" stroke-width="1" opacity="0.7"/>
+  <path d="M500 430h80" stroke="url(#accentVava)" stroke-width="10" stroke-linecap="round" />
+  <path d="M600 400h70" stroke="url(#accentVava)" stroke-width="8" stroke-linecap="round" />
+  <path d="M600 460h70" stroke="url(#accentVava)" stroke-width="8" stroke-linecap="round" />
+  <path d="M1020 430h80" stroke="url(#accentVava)" stroke-width="10" stroke-linecap="round" />
+  <path d="M930 400h70" stroke="url(#accentVava)" stroke-width="8" stroke-linecap="round" />
+  <path d="M930 460h70" stroke="url(#accentVava)" stroke-width="8" stroke-linecap="round" />
 
-  <!-- Mic icon in center -->
-  <rect x="788" y="420" width="24" height="35" rx="12" fill="#d4af37" filter="url(#glow_vava)"/>
-  <path d="M780 450 Q780 475 800 475 Q820 475 820 450" fill="none" stroke="#d4af37" stroke-width="2.5" filter="url(#glow_vava)"/>
-  <line x1="800" y1="475" x2="800" y2="488" stroke="#d4af37" stroke-width="2.5" filter="url(#glow_vava)"/>
-  <line x1="790" y1="488" x2="810" y2="488" stroke="#d4af37" stroke-width="2.5" filter="url(#glow_vava)"/>
+  <rect x="220" y="200" width="280" height="110" rx="20" fill="#12131c" stroke="#d4af37" stroke-opacity="0.16" />
+  <rect x="245" y="225" width="120" height="16" rx="8" fill="#f2d16b" fill-opacity="0.24" />
+  <rect x="245" y="255" width="200" height="14" rx="7" fill="#f2d16b" fill-opacity="0.16" />
+  <rect x="245" y="280" width="180" height="12" rx="6" fill="#f2d16b" fill-opacity="0.12" />
 
-  <!-- Dynamic waveform bars - left side -->
-  <g fill="#d4af37" filter="url(#glow_vava)" opacity="0.8">
-    <rect x="340" y="422" width="12" height="56" rx="6"/>
-    <rect x="360" y="408" width="12" height="84" rx="6"/>
-    <rect x="380" y="430" width="12" height="40" rx="6"/>
-    <rect x="400" y="395" width="12" height="110" rx="6"/>
-    <rect x="420" y="415" width="12" height="70" rx="6"/>
-    <rect x="440" y="425" width="12" height="50" rx="6"/>
-    <rect x="460" y="400" width="12" height="100" rx="6"/>
-    <rect x="480" y="420" width="12" height="60" rx="6"/>
-    <rect x="500" y="410" width="12" height="80" rx="6"/>
-    <rect x="520" y="435" width="12" height="30" rx="6"/>
-    <rect x="540" y="405" width="12" height="90" rx="6"/>
-    <rect x="560" y="418" width="12" height="64" rx="6"/>
-    <rect x="580" y="432" width="12" height="36" rx="6"/>
-    <rect x="600" y="412" width="12" height="76" rx="6"/>
-    <rect x="620" y="428" width="12" height="44" rx="6"/>
-    <rect x="640" y="398" width="12" height="104" rx="6"/>
-    <rect x="660" y="422" width="12" height="56" rx="6"/>
-    <rect x="680" y="415" width="12" height="70" rx="6"/>
-    <rect x="700" y="430" width="12" height="40" rx="6"/>
-  </g>
+  <rect x="1100" y="200" width="280" height="110" rx="20" fill="#12131c" stroke="#d4af37" stroke-opacity="0.16" />
+  <rect x="1125" y="225" width="160" height="16" rx="8" fill="#f2d16b" fill-opacity="0.24" />
+  <rect x="1125" y="255" width="220" height="14" rx="7" fill="#f2d16b" fill-opacity="0.16" />
+  <rect x="1125" y="280" width="190" height="12" rx="6" fill="#f2d16b" fill-opacity="0.12" />
 
-  <!-- Dynamic waveform bars - right side -->
-  <g fill="#d4af37" filter="url(#glow_vava)" opacity="0.8">
-    <rect x="900" y="425" width="12" height="50" rx="6"/>
-    <rect x="920" y="412" width="12" height="76" rx="6"/>
-    <rect x="940" y="400" width="12" height="100" rx="6"/>
-    <rect x="960" y="428" width="12" height="44" rx="6"/>
-    <rect x="980" y="408" width="12" height="84" rx="6"/>
-    <rect x="1000" y="420" width="12" height="60" rx="6"/>
-    <rect x="1020" y="395" width="12" height="110" rx="6"/>
-    <rect x="1040" y="430" width="12" height="40" rx="6"/>
-    <rect x="1060" y="415" width="12" height="70" rx="6"/>
-    <rect x="1080" y="422" width="12" height="56" rx="6"/>
-    <rect x="1100" y="405" width="12" height="90" rx="6"/>
-    <rect x="1120" y="435" width="12" height="30" rx="6"/>
-    <rect x="1140" y="418" width="12" height="64" rx="6"/>
-    <rect x="1160" y="400" width="12" height="100" rx="6"/>
-    <rect x="1180" y="425" width="12" height="50" rx="6"/>
-    <rect x="1200" y="412" width="12" height="76" rx="6"/>
-    <rect x="1220" y="430" width="12" height="40" rx="6"/>
-    <rect x="1240" y="410" width="12" height="80" rx="6"/>
-    <rect x="1260" y="420" width="12" height="60" rx="6"/>
-  </g>
-
-  <!-- Floating text bubbles (recognized speech) -->
-  <rect x="160" y="200" width="300" height="70" rx="8" fill="#121216" stroke="#d4af3730" stroke-width="1"/>
-  <rect x="160" y="200" width="300" height="3" rx="1.5" fill="#d4af37" opacity="0.6"/>
-  <text x="175" y="228" font-family="monospace" font-size="10" fill="#62646c">RECOGNIZED</text>
-  <text x="175" y="252" font-family="monospace" font-size="13" fill="#f5f5f7">"Set a reminder for 9 AM"</text>
-
-  <rect x="160" y="295" width="260" height="70" rx="8" fill="#121216" stroke="#d4af3730" stroke-width="1"/>
-  <rect x="160" y="295" width="260" height="3" rx="1.5" fill="#d4af37" opacity="0.6"/>
-  <text x="175" y="323" font-family="monospace" font-size="10" fill="#62646c">INTENT</text>
-  <text x="175" y="347" font-family="monospace" font-size="13" fill="#d4af37">Set Reminder</text>
-
-  <rect x="160" y="390" width="240" height="70" rx="8" fill="#121216" stroke="#d4af3730" stroke-width="1"/>
-  <text x="175" y="415" font-family="monospace" font-size="10" fill="#62646c">ENTITIES</text>
-  <text x="175" y="440" font-family="monospace" font-size="12" fill="#f5f5f7">TIME: 09:00 AM</text>
-
-  <!-- Right side response bubble -->
-  <rect x="1140" y="200" width="310" height="100" rx="8" fill="#1a1520" stroke="#d4af3740" stroke-width="1"/>
-  <rect x="1140" y="200" width="310" height="3" rx="1.5" fill="#d4af37" opacity="0.8"/>
-  <text x="1155" y="228" font-family="monospace" font-size="10" fill="#d4af37">VAVA RESPONSE</text>
-  <text x="1155" y="252" font-family="monospace" font-size="11" fill="#f5f5f7">"Sure! I've set a reminder</text>
-  <text x="1155" y="270" font-family="monospace" font-size="11" fill="#f5f5f7">for 9:00 AM tomorrow."</text>
-  <circle cx="1435" cy="245" r="6" fill="#22c55e" opacity="0.9"/>
-
-  <rect x="1200" y="330" width="250" height="80" rx="8" fill="#121216" stroke="#d4af3720" stroke-width="1"/>
-  <text x="1215" y="355" font-family="monospace" font-size="10" fill="#62646c">CAPABILITIES</text>
-  <text x="1215" y="375" font-family="monospace" font-size="10" fill="#9ea0a8">Weather · Alarms · Notes</text>
-  <text x="1215" y="393" font-family="monospace" font-size="10" fill="#9ea0a8">Music · Web Search · More</text>
-
-  <!-- Particle dots scattered -->
-  <g fill="#d4af37" opacity="0.4">
-    <circle cx="250" cy="600" r="2.5"/>
-    <circle cx="320" cy="680" r="2"/>
-    <circle cx="180" cy="720" r="3"/>
-    <circle cx="1350" cy="650" r="2.5"/>
-    <circle cx="1430" cy="700" r="2"/>
-    <circle cx="1490" cy="580" r="3"/>
-    <circle cx="1280" cy="730" r="2"/>
-    <circle cx="120" cy="550" r="2"/>
-    <circle cx="400" cy="750" r="2.5"/>
-    <circle cx="1100" cy="760" r="2"/>
-  </g>
-
-  <!-- Title -->
-  <text x="800" y="820" font-family="'Outfit', sans-serif" font-size="26" fill="#d4af37" text-anchor="middle" font-weight="300" letter-spacing="5" opacity="0.85" filter="url(#glow_vava)">VAVA · VOICE ACTIVATED VIRTUAL ASSISTANT</text>
+  <text x="140" y="790" fill="#f2d16b" font-size="38" font-family="Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="4">VAVA</text>
 </svg>

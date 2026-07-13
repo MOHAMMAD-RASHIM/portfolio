@@ -1,17 +1,42 @@
-<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="750" rx="32" fill="#0D1016"/>
-  <rect x="90" y="95" width="1020" height="565" rx="28" fill="#151B25" stroke="#D4AF37" stroke-opacity="0.25"/>
-  <circle cx="340" cy="290" r="165" fill="#11171F" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="3"/>
-  <path d="M240 330C260 250 340 200 420 230C500 260 500 350 420 390C350 422 250 390 240 330Z" fill="#D4AF37" fill-opacity="0.18"/>
-  <path d="M176 455H512" stroke="#D4AF37" stroke-width="8" stroke-linecap="round"/>
-  <path d="M176 495H430" stroke="#F3CF55" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
-  <rect x="670" y="190" width="280" height="200" rx="22" fill="#10161E" stroke="#D4AF37" stroke-opacity="0.25"/>
-  <path d="M738 336V248" stroke="#D4AF37" stroke-width="8" stroke-linecap="round"/>
-  <path d="M738 248H820" stroke="#D4AF37" stroke-width="8" stroke-linecap="round"/>
-  <path d="M820 248V336" stroke="#D4AF37" stroke-width="8" stroke-linecap="round"/>
-  <path d="M738 336H820" stroke="#D4AF37" stroke-width="8" stroke-linecap="round"/>
-  <rect x="680" y="455" width="260" height="110" rx="16" fill="#11171F" stroke="#D4AF37" stroke-opacity="0.2"/>
-  <rect x="710" y="485" width="140" height="10" rx="5" fill="#D4AF37"/>
-  <rect x="710" y="510" width="180" height="8" rx="4" fill="#F3CF55" fill-opacity="0.75"/>
-  <path d="M140 620C305 560 450 560 590 620" stroke="#D4AF37" stroke-opacity="0.15" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgChain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131d" />
+      <stop offset="100%" stop-color="#08090d" />
+    </linearGradient>
+    <linearGradient id="accentChain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6d66d" />
+      <stop offset="100%" stop-color="#b8871b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgChain)" />
+  <rect x="90" y="90" width="1420" height="720" rx="34" fill="#151723" stroke="#d4af37" stroke-opacity="0.2" />
+
+  <path d="M370 260c70-76 220-92 320-42 80 40 130 120 200 160 72 41 168 43 228 6" fill="none" stroke="#d4af37" stroke-opacity="0.2" stroke-width="12" stroke-linecap="round" />
+  <circle cx="330" cy="250" r="60" fill="#131621" stroke="url(#accentChain)" stroke-width="4" />
+  <circle cx="640" cy="220" r="80" fill="#131621" stroke="url(#accentChain)" stroke-width="4" />
+  <circle cx="980" cy="340" r="70" fill="#131621" stroke="url(#accentChain)" stroke-width="4" />
+  <circle cx="1240" cy="240" r="60" fill="#131621" stroke="url(#accentChain)" stroke-width="4" />
+
+  <rect x="360" y="430" width="300" height="220" rx="28" fill="#131621" stroke="#d4af37" stroke-opacity="0.2" />
+  <rect x="390" y="470" width="240" height="34" rx="17" fill="#f2d16b" fill-opacity="0.2" />
+  <rect x="390" y="520" width="180" height="18" rx="9" fill="#f2d16b" fill-opacity="0.18" />
+  <rect x="390" y="550" width="210" height="18" rx="9" fill="#f2d16b" fill-opacity="0.12" />
+  <path d="M465 590c24-32 58-46 98-46" fill="none" stroke="url(#accentChain)" stroke-width="10" stroke-linecap="round" />
+
+  <rect x="740" y="420" width="320" height="240" rx="28" fill="#131621" stroke="#d4af37" stroke-opacity="0.2" />
+  <path d="M820 540c28-36 72-56 122-56 48 0 92 18 122 56" fill="none" stroke="url(#accentChain)" stroke-width="10" stroke-linecap="round" />
+  <path d="M860 570h160" stroke="#f2d16b" stroke-opacity="0.8" stroke-width="10" stroke-linecap="round" />
+  <circle cx="900" cy="470" r="26" fill="#f2d16b" fill-opacity="0.16" stroke="#f2d16b" stroke-opacity="0.8" stroke-width="3" />
+  <circle cx="980" cy="470" r="26" fill="#f2d16b" fill-opacity="0.16" stroke="#f2d16b" stroke-opacity="0.8" stroke-width="3" />
+
+  <rect x="1140" y="430" width="220" height="220" rx="28" fill="#131621" stroke="#d4af37" stroke-opacity="0.2" />
+  <path d="M1200 600l50-70 40 40 70-110" fill="none" stroke="url(#accentChain)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="1200" cy="600" r="10" fill="#f2d16b" />
+  <circle cx="1250" cy="530" r="10" fill="#f2d16b" />
+  <circle cx="1290" cy="570" r="10" fill="#f2d16b" />
+  <circle cx="1360" cy="460" r="10" fill="#f2d16b" />
+
+  <text x="150" y="790" fill="#f2d16b" font-size="38" font-family="Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="4">CHAIN CHARITY</text>
 </svg>
