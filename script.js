@@ -212,14 +212,14 @@ document.addEventListener("DOMContentLoaded", () => {
       code: "#",
     },
     blockland: {
-      title: "Chain Charity",
+      title: "BlockLand",
       tag: "Blockchain",
       image: "assets/blockLand.png",
       role: "Blockchain Project Developer",
       duration: "Academic Project",
-      focus: "Transparent donations and crowdfunding",
+      focus: "Land registration and ownership transfer",
       description:
-        "Chain Charity is a blockchain-based crowdfunding platform developed using Solidity to improve transparency and trust in charitable donations.",
+        "BlockLand is a blockchain-powered land registration system for secure recording of property ownership and ownership transfers.",
       tech: ["Solidity", "Ethereum", "Remix IDE"],
       demo: "#",
       code: "#",
