@@ -86,12 +86,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   /* -------------------------------------------------------------
-       5. Portfolio Filtering Logic
+       5. Projects Filtering Logic
        ------------------------------------------------------------- */
   const filterButtons = document.querySelectorAll(".filter-btn");
-  const portfolioItems = document.querySelectorAll(".portfolio-item");
+  const projectItems = document.querySelectorAll(".projects-item");
 
-  const filterPortfolio = (filterValue) => {
+  const filterProjects = (filterValue) => {
     // Update active class on buttons
     filterButtons.forEach((btn) => {
       if (btn.getAttribute("data-filter") === filterValue) {
@@ -102,11 +102,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Hide/Show items
-    portfolioItems.forEach((item) => {
+    projectItems.forEach((item) => {
       const category = item.getAttribute("data-category");
       if (filterValue === "all" || category === filterValue) {
         item.style.display = "flex";
-        // Trigger a small animation repaint
         setTimeout(() => {
           item.style.opacity = "1";
           item.style.transform = "translateY(0)";
@@ -124,16 +123,16 @@ document.addEventListener("DOMContentLoaded", () => {
   filterButtons.forEach((button) => {
     button.addEventListener("click", (e) => {
       const filterValue = e.target.getAttribute("data-filter");
-      filterPortfolio(filterValue);
+      filterProjects(filterValue);
     });
   });
 
-  // Domain Quick Links Trigger Portfolio Filters
+  // Domain Quick Links Trigger Project Filters
   const domainTriggers = document.querySelectorAll(".filter-trigger");
   domainTriggers.forEach((trigger) => {
     trigger.addEventListener("click", (e) => {
       const filterValue = e.target.getAttribute("data-filter");
-      filterPortfolio(filterValue);
+      filterProjects(filterValue);
     });
   });
 
@@ -272,8 +271,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.style.overflow = "auto"; // Restore scroll
   };
 
-  // Attach click events to portfolio items
-  portfolioItems.forEach((item) => {
+  // Attach click events to project items
+  projectItems.forEach((item) => {
     item.addEventListener("click", () => {
       const projectId = item.getAttribute("data-project-id");
       openModal(projectId);
